@@ -3,8 +3,6 @@
 
 ## To-do features:
 
-1. Add a scoring system
-2. Implement multiple lives and respawning
 3. Add an explosion effect for the asteroids
 4. Add acceleration to the player movement
 5. Make the sprites wrap around the screen
