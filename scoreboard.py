@@ -1,5 +1,7 @@
 import pygame
 
+from constants import SCORE_BOARD_LIVES, SCORE_BOARD_SCORE
+
 
 class ScoreBoard(pygame.sprite.Sprite):
     containers: tuple[pygame.sprite.Group, ...]
@@ -10,8 +12,8 @@ class ScoreBoard(pygame.sprite.Sprite):
         else:
             super().__init__()
         self.font = pygame.font.Font(None, 36)
-        self.score = 0
-        self.lives = 3
+        self.score = SCORE_BOARD_SCORE
+        self.lives = SCORE_BOARD_LIVES
         self.position = pygame.Vector2(10, 10)
 
 
